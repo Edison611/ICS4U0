@@ -1,0 +1,26 @@
+{
+    "Province" : "California",
+
+    "Cities" : [
+      "Los Angeles",
+      "San Fransisco",
+      "Sacramento",
+      "Palo Alto"
+    ],
+
+    "Roads" : {
+      "Los Angeles" : [
+        ["Sacramento", 100.2, 1, 100]
+      ],
+      "San Fransisco" : [
+        ["Los Angeles", 45.5, 2, 100],
+        ["Sacramento", 42.0, 3, 100]
+      ]
+    },
+
+    "Cases" : {
+      "Sacramento" : "Los Angeles",
+      "Palo Alto" : "Sacramento",
+      "San Fransisco" : "Los Angeles"
+    }
+}

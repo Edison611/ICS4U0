@@ -1,0 +1,85 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>171</x><y>522</y><w>306</w><h>198</h></coordinates><panel_attributes>&lt;&lt;Province&gt;&gt;
+--
+- cities : dict
+--
++ access_city (city : str) : City [ ]
++ add_city (name : str) -&gt; boolean
++ add_road (city1 : str, city2 : str, length : float) -&gt; boolean
++ get_roads() -&gt; dict
++ get_city_names() -&gt; list
++ get_cities() -&gt; list
++ shortest_path (city1 : str, city2 : str, file : str) -&gt; boolean
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>657</x><y>783</y><w>234</w><h>252</h></coordinates><panel_attributes>&lt;&lt;Road&gt;&gt;
+--
+- length : float
+- lanes : int
+- material : str
+- speed_limit : int
+- name : str
+
+--
+set_length(length : float) -&gt; None
++ get_length() -&gt; float
++ set_lanes (lanes : int) -&gt; None
++ get_lanes () -&gt; int
++ set_material (material : str) -&gt; None
++ get_material () -&gt; str
++ set_speed_limit (speed_limit : int) -&gt; None
++ get_speed_limit () -&gt; int
++ set_name (name : str) -&gt; None
++ get_name () -&gt; str
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>594</x><y>495</y><w>252</w><h>162</h></coordinates><panel_attributes>&lt;&lt;City&gt;&gt;
+--
+- neighbours : list
+
+--
++ add_neighbour (city : str) -&gt; None
++ get_neighbours () -&gt; list
++ set_transit_spending(amount : float) -&gt; None
++ get_transit_spending() -&gt; float</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>468</x><y>612</y><w>153</w><h>36</h></coordinates><panel_attributes>uses
+lt=&lt;&lt;&lt;&lt;-[1..*]</panel_attributes><additional_attributes>10;20;140;20</additional_attributes></element><element><id>Relation</id><coordinates><x>306</x><y>711</y><w>81</w><h>108</h></coordinates><panel_attributes>uses
+
+lt=&lt;&lt;&lt;&lt;-[1..*]</panel_attributes><additional_attributes>10;10;60;100</additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>261</y><w>306</w><h>198</h></coordinates><panel_attributes>&lt;&lt;Government&gt;&gt;
+--
+- name:  str
+- population
+- tax : int
+--
++ get_info() -&gt; Stats
++ get_name() -&gt; str
++ set_tax(tax : int) -&gt; boolean
++ get_tax() -&gt; int
++ set_leader(name : str) -&gt; boolean
++ get_leader() -&gt; boolean
++ set_gdp(gdp : int) -&gt; None
++ get_gdp() -&gt; int
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>297</x><y>324</y><w>117</w><h>27</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>110;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>693</x><y>333</y><w>63</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;50;10;50;180</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>279</y><w>306</w><h>135</h></coordinates><panel_attributes>&lt;&lt;Federal&gt;&gt;
+--
+- provinces : dict
+- defense : float
+--
++ add_province (name : str) -&gt; boolean
++ get_province_names() -&gt; list
++ get_provinces -&gt; list
++ set_defense_spending(amount : float) -&gt; None
++ get_defense_spending() -&gt; float</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>342</x><y>414</y><w>72</w><h>126</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>60;10;10;10;10;120</additional_attributes></element><element><id>UMLClass</id><coordinates><x>423</x><y>36</y><w>252</w><h>162</h></coordinates><panel_attributes>&lt;&lt;Stats&gt;&gt;
+--
++ population : int
++ density : float
++ timezone : str
+--
++ set_population(pop : int) -&gt; None
++ get_population() -&gt; int
++ set_density(dense : float) -&gt; None
++ get_density() -&gt; float
++ set_timezone(time : str) -&gt; None
++ get_timezone() -&gt; str</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>567</x><y>189</y><w>72</w><h>90</h></coordinates><panel_attributes>uses
+lt=&lt;&lt;&lt;&lt;-[1]
+</panel_attributes><additional_attributes>10;10;60;80</additional_attributes></element><element><id>Relation</id><coordinates><x>81</x><y>405</y><w>117</w><h>297</h></coordinates><panel_attributes>uses
+lt=&lt;&lt;&lt;&lt;-[1..*]</panel_attributes><additional_attributes>10;10;10;310;100;310</additional_attributes></element><element><id>UMLClass</id><coordinates><x>297</x><y>801</y><w>252</w><h>162</h></coordinates><panel_attributes>&lt;&lt;Highway&gt;&gt;
+--
+- toll : float
+
+--
++ set_toll(toll : float) -&gt; None
++ get_toll() -&gt; float</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>873</y><w>135</w><h>54</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>130;10;60;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>738</x><y>711</y><w>90</w><h>27</h></coordinates><panel_attributes>Street</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>765</x><y>729</y><w>27</w><h>72</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element></diagram>

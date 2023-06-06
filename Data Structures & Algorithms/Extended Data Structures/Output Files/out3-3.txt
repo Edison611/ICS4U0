@@ -1,0 +1,12 @@
+The shortest path from D to A is: 
+Start at D
+From D go to B on Highway 1 (6)
+The speed limit on this road is 100
+There is no toll on this road 
+
+From B go to A on Highway 1 (10)
+The speed limit on this road is 100
+There is no toll on this road 
+
+The length of this journey would be 16
+----------------------------------------------------------

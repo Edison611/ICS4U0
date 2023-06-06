@@ -1,0 +1,16 @@
+The shortest path from A to F is: 
+Start at A
+From A go to B on Highway 1 (10)
+The speed limit on this road is 100
+There is no toll on this road 
+
+From B go to E on Highway 1 (20)
+The speed limit on this road is 100
+There is no toll on this road 
+
+From E go to F on Highway 1 (2)
+The speed limit on this road is 100
+There is no toll on this road 
+
+The length of this journey would be 32
+----------------------------------------------------------

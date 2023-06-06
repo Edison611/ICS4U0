@@ -1,0 +1,20 @@
+The shortest path from F to C is: 
+Start at F
+From F go to E on Highway 1 (2)
+The speed limit on this road is 100
+There is no toll on this road 
+
+From E go to B on Highway 1 (20)
+The speed limit on this road is 100
+There is no toll on this road 
+
+From B go to D on Highway 1 (6)
+The speed limit on this road is 100
+There is no toll on this road 
+
+From D go to C on Highway 1 (8)
+The speed limit on this road is 100
+There is no toll on this road 
+
+The length of this journey would be 36
+----------------------------------------------------------

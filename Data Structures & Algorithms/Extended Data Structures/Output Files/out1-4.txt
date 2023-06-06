@@ -1,0 +1,8 @@
+The shortest path from Hamilton to Niagara Falls is: 
+Start at Hamilton
+From Hamilton go to Niagara Falls on Highway QEW (45.5)
+The speed limit on this road is 110
+There is no toll on this road 
+
+The length of this journey would be 45.5
+----------------------------------------------------------

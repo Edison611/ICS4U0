@@ -1,0 +1,12 @@
+The shortest path from Toronto to Oakville is: 
+Start at Toronto
+From Toronto go to Mississauga on Highway QEW (50.0)
+The speed limit on this road is 100
+There is no toll on this road 
+
+From Mississauga go to Oakville on Highway 401 (15.0)
+The speed limit on this road is 100
+There is no toll on this road 
+
+The length of this journey would be 65.0
+----------------------------------------------------------

@@ -1,0 +1,35 @@
+{
+    "Province" : "Ontario",
+
+    "Cities" : [
+      "Mississauga",
+      "Toronto",
+      "Oakville",
+      "Brampton",
+      "Burlington",
+      "Niagara Falls",
+      "Hamilton"
+    ],
+
+    "Roads" : {
+      "Mississauga" : [
+        ["Toronto", 50.0, "QEW", 100],
+        ["Brampton", 20.0, "410", 100],
+        ["Oakville", 15.0, "401", 100]
+      ],
+      "Oakville" : [
+        ["Burlington", 13.0, "QEW", 110]
+      ],
+      "Niagara Falls" : [
+        ["Hamilton", 45.5, "QEW", 110]
+      ]
+    },
+
+    "Cases" : {
+      "Toronto" : "Oakville",
+      "Oakville" : "Toronto",
+      "Niagara Falls" : "Toronto",
+      "Hamilton" : "Niagara Falls",
+      "Burlington" : "Toronto"
+    }
+}

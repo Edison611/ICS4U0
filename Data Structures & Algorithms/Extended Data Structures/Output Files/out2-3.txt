@@ -1,0 +1,8 @@
+The shortest path from San Fransisco to Los Angeles is: 
+Start at San Fransisco
+From San Fransisco go to Los Angeles on Highway 2 (45.5)
+The speed limit on this road is 100
+There is no toll on this road 
+
+The length of this journey would be 45.5
+----------------------------------------------------------

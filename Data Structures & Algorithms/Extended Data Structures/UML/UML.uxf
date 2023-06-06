@@ -1,0 +1,49 @@
+<diagram program="umletino" version="15.1"><zoom_level>7</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>28</x><y>84</y><w>238</w><h>154</h></coordinates><panel_attributes>&lt;&lt;Province&gt;&gt;
+--
+- name:  str
+- cities : dict
+- roads : dict
+--
++ access_city (city : str) : City [ ]
++ add_city (name : str) -&gt; boolean
++ add_road (city1 : str, city2 : str, length : float) -&gt; boolean
++ total_population() -&gt; int
++ get_roads() -&gt; dict
++ get_cities() -&gt; list
++ get_name() -&gt; str
++ shortest_path (city1 : str, city2 : str, file : str) -&gt; boolean
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>357</x><y>259</y><w>182</w><h>196</h></coordinates><panel_attributes>&lt;&lt;Road&gt;&gt;
+--
+- length : float
+- lanes : int
+- material : str
+- speed_limit : int
+- name : str
+
+--
+set_length(length : float) -&gt; None
++ get_length() -&gt; float
++ set_lanes (lanes : int) -&gt; None
++ get_lanes () -&gt; int
++ set_material (material : str) -&gt; None
++ get_material () -&gt; str
++ set_speed_limit (speed_limit : int) -&gt; None
++ get_speed_limit () -&gt; int
++ set_name (name : str) -&gt; None
++ get_name () -&gt; str
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>357</x><y>84</y><w>196</w><h>126</h></coordinates><panel_attributes>&lt;&lt;City&gt;&gt;
+--
+- name : str
+- neighbours : list
+- population : int
+
+--
++ set_population (population : int) -&gt; boolean
++ change_population (change : int) -&gt; boolean
++ get_population () -&gt; int
++ add_neighbour (city : str) -&gt; None
++ get_neighbours () -&gt; list
++ get_name () -&gt; str</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>259</x><y>126</y><w>112</w><h>28</h></coordinates><panel_attributes>uses
+lt=&lt;&lt;&lt;&lt;-[1..*]</panel_attributes><additional_attributes>10;20;130;20</additional_attributes></element><element><id>Relation</id><coordinates><x>126</x><y>231</y><w>252</w><h>126</h></coordinates><panel_attributes>uses
+
+lt=&lt;&lt;&lt;&lt;-[1..*]</panel_attributes><additional_attributes>10;10;80;150;330;150</additional_attributes></element></diagram>

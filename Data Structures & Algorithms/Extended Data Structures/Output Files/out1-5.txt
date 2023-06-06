@@ -1,0 +1,16 @@
+The shortest path from Burlington to Toronto is: 
+Start at Burlington
+From Burlington go to Oakville on Highway QEW (13.0)
+The speed limit on this road is 110
+There is no toll on this road 
+
+From Oakville go to Mississauga on Highway 401 (15.0)
+The speed limit on this road is 100
+There is no toll on this road 
+
+From Mississauga go to Toronto on Highway QEW (50.0)
+The speed limit on this road is 100
+There is no toll on this road 
+
+The length of this journey would be 78.0
+----------------------------------------------------------

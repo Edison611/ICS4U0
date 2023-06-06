@@ -1,0 +1,12 @@
+The shortest path from C to B is: 
+Start at C
+From C go to D on Highway 1 (8)
+The speed limit on this road is 100
+There is no toll on this road 
+
+From D go to B on Highway 1 (6)
+The speed limit on this road is 100
+There is no toll on this road 
+
+The length of this journey would be 14
+----------------------------------------------------------

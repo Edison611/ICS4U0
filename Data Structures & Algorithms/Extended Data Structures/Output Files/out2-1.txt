@@ -1,0 +1,12 @@
+The shortest path from Sacramento to Los Angeles is: 
+Start at Sacramento
+From Sacramento go to San Fransisco on Highway 3 (42.0)
+The speed limit on this road is 100
+There is no toll on this road 
+
+From San Fransisco go to Los Angeles on Highway 2 (45.5)
+The speed limit on this road is 100
+There is no toll on this road 
+
+The length of this journey would be 87.5
+----------------------------------------------------------
