@@ -1,0 +1,5 @@
+The shortest path from San Fransisco to Los Angeles is: 
+Start at San Fransisco
+From San Fransisco, go to Los Angeles (45.5)
+The length of this journey would be 45.5
+----------------------------------------------------------

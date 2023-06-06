@@ -1,0 +1,7 @@
+The shortest path from A to F is: 
+Start at A
+From A, go to B (10)
+From B, go to E (20)
+From E, go to F (2)
+The length of this journey would be 32
+----------------------------------------------------------

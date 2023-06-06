@@ -1,0 +1,8 @@
+The shortest path from F to C is: 
+Start at F
+From F, go to E (2)
+From E, go to B (20)
+From B, go to D (6)
+From D, go to C (8)
+The length of this journey would be 36
+----------------------------------------------------------

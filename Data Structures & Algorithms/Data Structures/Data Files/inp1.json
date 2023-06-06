@@ -1,0 +1,29 @@
+{
+    "Province" : "Ontario",
+
+    "Cities" : [
+      "Mississauga",
+      "Toronto",
+      "Oakville",
+      "Brampton",
+      "Niagara Falls",
+      "Hamilton"
+    ],
+
+    "Roads" : {
+      "Mississauga" : [
+        ["Toronto", 50.0],
+        ["Brampton", 20.0],
+        ["Oakville", 15.0]
+      ],
+      "Niagara Falls" : [
+        ["Hamilton", 45.5]
+      ]
+    },
+
+    "Cases" : {
+      "Toronto" : "Oakville",
+      "Oakville" : "Toronto",
+      "Niagara Falls" : "Toronto"
+    }
+}

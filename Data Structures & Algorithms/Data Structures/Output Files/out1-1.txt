@@ -1,0 +1,6 @@
+The shortest path from Toronto to Oakville is: 
+Start at Toronto
+From Toronto, go to Mississauga (50.0)
+From Mississauga, go to Oakville (15.0)
+The length of this journey would be 65.0
+----------------------------------------------------------

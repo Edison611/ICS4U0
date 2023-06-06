@@ -1,0 +1,6 @@
+The shortest path from Sacramento to Los Angeles is: 
+Start at Sacramento
+From Sacramento, go to San Fransisco (42.0)
+From San Fransisco, go to Los Angeles (45.5)
+The length of this journey would be 87.5
+----------------------------------------------------------

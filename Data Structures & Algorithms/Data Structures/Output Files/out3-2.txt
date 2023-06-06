@@ -1,0 +1,6 @@
+The shortest path from C to B is: 
+Start at C
+From C, go to D (8)
+From D, go to B (6)
+The length of this journey would be 14
+----------------------------------------------------------

@@ -1,0 +1,6 @@
+The shortest path from D to A is: 
+Start at D
+From D, go to B (6)
+From B, go to A (10)
+The length of this journey would be 16
+----------------------------------------------------------

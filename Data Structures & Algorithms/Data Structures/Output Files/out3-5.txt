@@ -1,0 +1,8 @@
+The shortest path from G to H is: 
+Start at G
+From G, go to D (2)
+From D, go to B (6)
+From B, go to E (20)
+From E, go to H (3)
+The length of this journey would be 31
+----------------------------------------------------------
