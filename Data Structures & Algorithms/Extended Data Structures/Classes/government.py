@@ -4,7 +4,6 @@ from stats import Stats
 class Government:
     """
     A government object (parent class) that each type of government needs to have.
-    Contains
 
     Attributes
     ----------

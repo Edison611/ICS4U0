@@ -14,7 +14,6 @@ class Province(Government):
     We construct a sort of graph that has nodes (cities) and edges (roads) that each has its own
     separate properties. We can then use this data from the graph to perform operations using
     graph theory that can be useful for the real world.
-    (Inherits the properties of the Government class)
 
     Attributes
     ----------
